@@ -1206,5 +1206,4 @@ PLUGIN_PUBLIC const struct libv4l_dev_ops libv4l2_plugin = {
 	.init = &plugin_init,
 	.close = &plugin_close,
 	.ioctl = &plugin_ioctl,
-	.mmap = &plugin_mmap,
 };
